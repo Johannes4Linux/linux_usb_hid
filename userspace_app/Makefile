@@ -1,6 +1,6 @@
 all: thid
 
-thid: testapp_hid
+thid: testapp-hid.c
 	gcc $< -o $@
 
 clean:
